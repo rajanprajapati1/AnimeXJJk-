@@ -1,0 +1,85 @@
+.Watch_Page{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.watch_box{
+    width: 99%;
+    height: 98vh;
+    margin: 5px auto;
+    border-radius: 5px;
+    display: flex;
+}
+ .hierchy{
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+.episodes_Section {
+    flex: 1.4;
+    height:98vh;
+}
+.episodes_Section h3{
+    width: 100%;
+    height: 60px;
+    background-color: tomato;
+    font-size: 1.5rem;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+}
+.episodes_column{
+    margin-top: 5px;
+    background-color: dodgerblue;
+    overflow: hidden;
+    width: 100%;
+    height: 87.6vh;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: nowrap;
+    align-items: normal;
+    justify-content: start;
+    overflow:scroll;
+
+}
+.episodes_card{
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 15%;
+    margin: 5px auto;
+    display: grid;
+    border-radius: 5px;
+    place-items: center;
+}
+.video_player{
+    flex: 3;
+    height:98vh;
+    margin: 0 3px;
+}
+.video_box{
+   width: 100%;
+   height: 80vh;
+   border-radius: 15px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.video_play_Details{
+    margin: 5px auto;
+    width: 99%;
+    height: 105px;
+    background-color: dodgerblue;
+    border-radius: 8px;
+}
+.VD_EPIDOSE_dETAILS{
+    width: 100%;
+    height: 100%;
+    background-color: grey;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-size: 2rem;
+    display: grid;
+    place-items: center;
+}

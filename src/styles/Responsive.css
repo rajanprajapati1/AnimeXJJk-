@@ -1,0 +1,337 @@
+@media only screen and (max-width: 320px) {
+   
+    .mangapage{
+      height: auto;
+      background-color: transparent;
+    }
+    .Top_Banner h2{
+      font-size: 0.9rem;
+    }
+    .mangapage img{
+      width: 100%;
+      border-radius:0 ;
+      height:15vh;
+    }
+    .Navbar .left{
+      padding-left: 2px;
+    }
+    .Navbar .left {
+      font-size: 0.8rem ;
+      flex-basis: 20%;
+      margin-left: 0.2rem;
+    }
+    .Navbar .center{
+      flex-basis: 50%;
+    }
+    .Navbar .center h3{
+    font-size: 1.2rem;
+    }
+    .Navbar .left{
+   letter-spacing: 1px;
+    }
+    .Navbar .right{
+      padding-right: 0px;
+    }
+    .Navbar .right strong{
+      padding: 8px 3px;
+      margin: 0 5px;
+      font-size: 0.8rem;
+    }
+  .main_Slider{
+    height: 50vh;
+  }
+  .Flex_Slider .slider_style{
+    object-fit: cover;
+    height: 45vh;
+    margin-bottom: 6rem;
+  }
+  .slider_Details h3{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    margin-top: 2.6rem;
+  }
+  .slider_Details p{
+    font-size: 0.5rem;
+    letter-spacing: 0;
+    line-height: 10px;
+  }
+  .btn_sl{
+    padding: 10px 15px;
+    font-size: 0.5rem;
+    margin: 10px;
+  }
+  .Banner{
+    height: 25vh;
+  }
+  .Banner .banner_box h1{
+    font-size: 1.8rem;
+    letter-spacing: -0px;
+  }
+  
+  .lastest_scroll  .first{
+     border-radius: 5px;
+     height: 60vh;
+     object-fit: cover;
+  }
+  .listpage h3{
+    text-align: left;
+    font-weight: 500;
+  }
+  .first .img_card{
+    border-radius: 5px;
+  }
+  .Category_Page .main{
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  .filter_card .lastest_scroll .first{
+    width: 40px;
+    object-fit: cover;
+    height: 120px;
+    overflow: hidden;
+  }
+  .filter_card .lastest_scroll .first .overlay{
+    text-align: center;
+    font-size: 0.9rem;
+    height: 0vh;
+  }
+  .filter_card .lastest_scroll .first:hover .overlay{
+    height: 22vh;
+  }
+  
+  .filter_card{
+    height: 82vh;
+    overflow: hidden;
+  }
+  .main .filter_anime{
+    flex: 0.5;
+    width: 25%;
+  }
+  .searchpage{
+    height: 78vh;
+  }
+  .searchpage  .active {
+    width: 80%;
+  }
+  .active input{
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .searchresult{
+    height: 52vh;
+  }
+  .search_list .lastest_scroll{
+    height: 50vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+  .new_f_b{
+    outline: none;
+    padding: 12px 10px;
+    border: none;
+    background-color: #272e33;
+    border-radius: 8px;
+    color: grey;
+  }
+  .watch_box{
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 150vh;
+  }
+  .video_player{
+    height: 20vh;
+    margin-top: -5rem;
+  }
+  .episodes_Section{
+    margin-top: 18rem;
+    margin-bottom: 5rem;
+    width: 100%;
+  }
+  
+  .video_play_Details{
+    margin-top: -6rem;
+    height: 12vh;
+  }
+  .video_play_Details span{
+    font-size: 1rem;
+  }
+  }
+
+  @media only screen and (max-width: 520px) {
+   
+    .mangapage{
+      height: auto;
+      background-color: transparent;
+    }
+    .Top_Banner h2{
+      font-size: 0.9rem;
+    }
+    .mangapage img{
+      width: 100%;
+      border-radius:0 ;
+      height:15vh;
+    }
+    .Navbar .left{
+      padding-left: 2px;
+    }
+    .Navbar .left {
+      font-size: 0.8rem ;
+      flex-basis: 20%;
+      margin-left: 0.2rem;
+    }
+    .Navbar .center{
+      flex-basis: 50%;
+    }
+    .Navbar .center h3{
+    font-size: 1.2rem;
+    }
+    .Navbar .left{
+   letter-spacing: 1px;
+    }
+    .Navbar .right{
+      padding-right: 0px;
+    }
+    .Navbar .right strong{
+      padding: 8px 3px;
+      margin: 0 5px;
+      font-size: 0.8rem;
+    }
+  .main_Slider{
+    height: 50vh;
+  }
+  .Flex_Slider .slider_style{
+    object-fit: cover;
+    height: 45vh;
+    margin-bottom: 6rem;
+  }
+  .slider_Details h3{
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    margin-top: 3.5rem;
+    margin-left: -5px;
+    height: 22vh;
+  }
+  .slider_Details p{
+    font-size: 0.7rem;
+    margin-left: -5px;
+    letter-spacing: 0;
+    line-height: 10px;
+    display: none;
+    height: 3vh;
+  }
+  .btn_sl{
+    padding: 10px 25px;
+    font-size: 0.5rem;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: -0.2rem;
+  
+  }
+  .Banner{
+    height: 25vh;
+  }
+  .Banner .banner_box h1{
+    font-size: 1.8rem;
+    letter-spacing: -0px;
+  }
+  
+  .lastest_scroll  .first{
+     border-radius: 5px;
+     height: 60vh;
+     object-fit: cover;
+  }
+  .listpage h3{
+    text-align: left;
+    font-weight: 500;
+  }
+  .first .img_card{
+    border-radius: 5px;
+  }
+  .Category_Page .main{
+    flex-direction: row;
+    overflow: hidden;
+  }
+  
+  .filter_card .lastest_scroll .first{
+    width: 40px;
+    object-fit: cover;
+    height: 120px;
+    overflow: hidden;
+  }
+  .filter_card .lastest_scroll .first .overlay{
+    text-align: center;
+    font-size: 0.9rem;
+    height: 0vh;
+  }
+  .filter_card .lastest_scroll .first:hover .overlay{
+    height: 22vh;
+  }
+  
+  .filter_card{
+    height: 82vh;
+    overflow: hidden;
+  }
+  .main .filter_anime{
+    flex: 0.5;
+    width: 25%;
+  }
+  .searchpage{
+    height: 78vh;
+  }
+  .searchpage  .active {
+    width: 80%;
+  }
+  .active input{
+    padding: 0 10px;
+    font-size: 1rem;
+  }
+  
+  .searchresult{
+    height: 52vh;
+  }
+  .search_list .lastest_scroll{
+    height: 50vh;
+    overflow-y: scroll;
+    display: flex;
+    flex-direction: column;
+  }
+  .new_f_b{
+    outline: none;
+    padding: 12px 10px;
+    border: none;
+    background-color: #272e33;
+    border-radius: 8px;
+    color: grey;
+  }
+  .watch_box{
+    height: auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column-reverse;
+    height: 150vh;
+  }
+  .video_player{
+    height: 20vh;
+    margin-top: -5rem;
+  }
+  .episodes_Section{
+    margin-top: 18rem;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+  
+  .video_play_Details{
+    margin-top: -6rem;
+    height: 12vh;
+  }
+  .video_play_Details span{
+    font-size: 1rem;
+  }
+  }

@@ -1,0 +1,442 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+
+}
+.Navbar {
+  width: 100%;
+  height: 60px;
+  background-color: slateblue;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Bangers", cursive;
+  align-items: center;
+}
+.Navbar .center h3{
+  font-family: "Bangers", cursive;
+  font-size: 1.7rem;
+  font-weight: 200;
+  letter-spacing: 4px;
+}
+.Navbar .left{
+    padding-left: 15px;
+    flex-basis: 18%;
+    letter-spacing: 2px;
+}
+.Navbar .right{
+    padding-right: 15px;
+}
+.Navbar .right strong{
+      padding: 10px 18px ;
+      border: 1px solid white;
+      color: white;
+      border-radius: 4px;
+      margin: 0 12px;
+  font-size: 1.3vw;
+  font-weight: 500;
+  transition: 0.5s ease-in-out ;
+}
+.Navbar strong {
+  color: tomato;
+}
+.Navbar .right strong:nth-child(1){
+    background-color: white;
+    color: tomato;
+}
+.Navbar .right strong:hover{
+    background-color: white;
+    color: tomato;
+}
+.Top_Banner {
+  width: 100%;
+  height: 30px;
+  background-color: tomato;
+  color: white;
+  display: grid;
+  place-content: center;
+}
+.Top_Banner h2 {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.1vw;
+}
+
+
+/* slider_Details */
+
+.slider_Details{
+flex: 1.2;
+height:80vh;
+margin:0 15px;
+}
+.slider_Details h3{
+  font-family: "Bangers", cursive;
+  letter-spacing: 8px;
+  color: tomato;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top:5rem;
+  font-size: 3rem;
+}
+
+.slider_Details p{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: grey;
+  line-height: 20px;
+}
+.main_Slider{
+  width: 100%;
+  height: 75vh;
+  overflow: hidden;
+}
+.slider_style{
+    width: 100%;
+    height: 60vh;
+    background-position: top;
+    object-fit: cover;
+    border-radius:10px;
+}
+.Flex_Slider{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+  width: 99%;
+  height: 70vh;
+  object-fit: cover;
+  position: relative;
+}
+.btn_sl{
+  margin:30px 10px;
+  padding: 15px 65px;
+  border-radius: 5px;
+  outline: none;
+  border: 1px solid tomato;
+  background-color: transparent;
+  font-size: 1rem;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  font-weight: 800;
+}
+.btn_sl:hover{
+  background-color: tomato;
+  color: white;
+}
+/* .listpage */
+
+.listpage{
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  /* background-color: aqua; */
+}
+.sections{
+  width: 98%;
+  margin: 8px auto;
+  border-radius: 5px;
+  height: auto;
+}
+.sections h3{
+  font-size: 1.6rem;
+  padding: 10px ;
+}
+.lastest_scroll{
+  width: 99%;
+  border-radius: 8px;
+  height: 45vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+
+.lastest_scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.lastest_scroll::-webkit-scrollbar-track {
+  display: none;
+}
+
+.lastest_scroll::-webkit-scrollbar-thumb {
+  display: none;
+}
+.lastest_scroll .first {
+  width: 200px;
+  min-width: 200px;
+  height: 42vh;
+  background-color: black;
+  color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+  position: relative;
+}
+.overlay{
+  width: 200px;
+  min-width: 200px;
+  background-color: white;
+  border-radius: 4px;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+  height: 0vh;
+  position: absolute;
+  bottom: 0;
+  color: tomato;
+}
+.overlay button{
+  margin:1rem 30%;
+  font-size: 5rem;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: grey;
+  cursor: pointer;
+}
+.overlay p{
+padding: 10px;
+color: grey;
+
+}
+.lastest_scroll .first:hover .overlay{
+  height: 42vh;
+}
+.img_card{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.Banner , .mangapage{
+  width: 100%;
+  height: 30vh;
+  background-color: aliceblue;
+  display: grid;
+  place-items: center;
+}
+
+.Banner .banner_box h1{
+  font-family: "Bangers", cursive;
+  font-size: 5rem;
+  -webkit-text-stroke: 0.1px black;
+  color: transparent;
+  transition: 0.5s ease-in-out;
+  letter-spacing: 5px;
+}
+ .Banner:hover h1{
+  color: tomato;
+}
+.Category_Page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .Category_Page .main{
+width: 98.5%;
+height: 98%;
+border-radius: 5px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.Category_Page .main .filter_anime{
+  flex: 3;
+  height: 98%;
+  background-color: white;
+  border-radius: 5px;
+  margin:4px ;
+  box-shadow: rgba(100, 100, 112, 0.2) 0px 7px 29px 0px ;
+} 
+.Category_Page .main .filter_options{
+  flex: 1;
+  background-color: white;
+  margin:4px ;
+  height: 98%;
+  border-radius: 5px;
+}
+
+.filter_anime h2 ,.filter_options  h2 {
+  padding:15px;
+  font-weight: 500;
+}
+.filter_button {
+  width: 99%;
+  height: 90%;
+  border-radius: 8px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(88px, 3fr));
+  grid-template-rows: repeat(3, 50);
+  overflow-y: scroll;
+}
+
+.filter_button button{
+  padding: 15px 5px;
+  margin: 10px;
+  display: grid;
+  place-content: center;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 0.7rem;
+  background-color: rgba(99, 99, 99, 0.2);
+  color: black;
+  transition: 0.5s ease-in-out;
+}
+.filter_button button:hover{
+  background-color: white;
+  color: black;
+  outline: 1px solid aliceblue;
+}
+
+.filter_card{
+  margin: -1rem auto;
+  border-radius: 8px;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  
+
+}
+
+.filter_card .lastest_scroll{
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  overflow-y:scroll ;
+}
+.new_f_b{
+  outline: none;
+  padding: 12px 10px;
+  border: none;
+  background-color: #272e33;
+  border-radius: 8px;
+  color: grey;
+}
+
+.filter_card .lastest_scroll .first{
+  width: 200px;
+  height: 250px;
+}
+.filter_card .lastest_scroll .first .overlay h3{
+  padding: 10px;
+}
+.filter_card .lastest_scroll::-webkit-scrollbar{
+  display: none;
+}.filter_card .lastest_scroll::-webkit-scrollbar-track{
+  display: none;
+}.filter_card .lastest_scroll::-webkit-scrollbar-thumb{
+  display: none;
+}
+.filter_button::-webkit-scrollbar {
+  display: none;
+}
+
+.filter_button::-webkit-scrollbar-track {
+  display: none;
+}
+
+.filter_button::-webkit-scrollbar-thumb {
+  display: none;
+}
+.searchpage{
+  margin: 5px auto;
+  width: 98%;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: rgba(197, 197, 197, 0.675);
+  height: 118vh;
+}
+.searchbar{
+  width: 80%;
+  height: 70px;
+  background-color: rgba(187, 178, 178, 0.675);
+  display: flex;
+  justify-content: space-between;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  align-items: center;
+  margin: 18% auto;
+  
+border-radius: 15px;
+}
+
+.searchbar input{
+  height: 40px;
+  width: 90%;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 0 20px;
+  font-size: 1.5rem;
+
+}
+.active {
+  width: 50%;
+  height: 70px;
+  background-color: rgba(187, 178, 178, 0.675);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px auto;
+border-radius: 15px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+
+
+}
+  .active input{
+  background-color: rgba(187, 178, 178, 0.675);
+  width: 85%;
+  margin: 15px auto;
+  font-size: 1.3rem;
+  height: 40px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  color: black;
+  padding: 0 0px;
+  font-size: 1.5rem;
+}
+.searchresult{
+  margin: 0 auto;
+  width: 98.5%;
+  height: 85vh;
+  border-radius: 8px;
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.none{
+  display: none;
+}
+.search_list .lastest_scroll{
+  width:98.5% ;
+  border-radius: 8px;
+  height:82vh ;
+}
+
+.search_list .lastest_scroll{
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.search_list .lastest_scroll .first{
+margin:7px;
+}
+
+
