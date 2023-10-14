@@ -8,13 +8,16 @@
 
 ## Overview
 
-animexjjk is a website dedicated to [provide a brief description of what your website is about].
-
+animexjjk is a website dedicated to providing a platform for users to explore, watch, and stay updated on their favorite anime series. It offers a user-friendly interface, seamless navigation, and a wide range of features for an optimal anime-watching experience.
 
 ## Getting Started
 
 These instructions will help you get a copy of the project up and running on your local machine for development and testing purposes.
 
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install dependencies using `npm install`.
+4. Start the development server with `npm run dev`.
 
 ## Screenshots
 
@@ -30,7 +33,7 @@ If you'd like to contribute, please fork the repository and create a pull reques
 
 ## License
 
-This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
@@ -38,22 +41,4 @@ This project is licensed under the [License Name] - see the [LICENSE.md](LICENSE
 
 ## Contact
 
-For inquiries or feedback, please contact [Your Name] at [Your Email Address].
-
----
-
-Please replace the placeholders (like [provide a brief description]) with actual content related to your website. Additionally, replace the image links with actual images of your website. Make sure to include a section with instructions on how to install and use your website, and specify the license you're using.
-
-Remember to also include a license file (usually named `LICENSE.md`) in your project repository, and specify the actual license you want to use.
-
-If you have any specific details about your website that you'd like to include, feel free to add them in relevant sections.
-
-
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+For inquiries or feedback, please contact John Doe at john.doe@example.com.
