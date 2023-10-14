@@ -2,9 +2,9 @@
 
 ![Website Preview](https://i.ibb.co/JtXLnSN/Screenshot-44.png)
 
-![Another Preview](https://ibb.co/yBWLV2K/Screenshot-45.png)
+![Another Preview](https://i.ibb.co/mF6QSpd/Screenshot-45.png)
 
-![One More Preview](https://ibb.co/0rtgm4F/Screenshot-46.png)
+![One More Preview](https://i.ibb.co/5LFNGpn/Screenshot-46.png)
 
 ## Overview
 
@@ -20,9 +20,9 @@ These instructions will help you get a copy of the project up and running on you
 
 ![Screenshot 1](https://ibb.co/1QHVZ43/Screenshot-44.png)
 
-![Screenshot 2](https://ibb.co/yBWLV2K/Screenshot-45.png)
+![Screenshot 2](https://i.ibb.co/mF6QSpd/Screenshot-45.png)
 
-![Screenshot 3](https://ibb.co/0rtgm4F/Screenshot-46.png)
+![Screenshot 3](https://i.ibb.co/5LFNGpn/Screenshot-46.png)
 
 ## Contributing
 
