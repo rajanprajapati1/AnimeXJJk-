@@ -1,7 +1,6 @@
-Certainly! Here's a README template for your animexjjk website:
 
-```markdown
-# animexjjk Website
+<center><h1>Anime X JJK</h1></center>
+<p style="color:"red"">Made By <strong>Rajan Prajapati</strong></p>
 
 ![Website Preview](https://i.ibb.co/JtXLnSN/Screenshot-44.png)
 
